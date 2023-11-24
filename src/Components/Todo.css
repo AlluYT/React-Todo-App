@@ -1,0 +1,73 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: rgb(111, 105, 105); /* Set background color to black */
+  }
+
+  .container {
+    width: 40%;
+    margin: 50px auto;
+    background-color: rgb(251, 246, 246);
+    color: rgb(2, 2, 2);
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  h2{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  button{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(69, 212, 69);
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .ul-list{
+    margin-top: 10px;
+  }
+
+  .input-control{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  li{
+    margin-bottom: 15px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .list-items{
+    display: flex;
+  }
+  .list-items .list-item-list{
+    flex: 1;
+  }
+  .list-items .list-item-icons{
+    padding-left: 5px;
+    font-size:25px
+  }
+  #complete{
+    color: green;
+  }
+  #edit{
+    color:blue
+  }
+  #delete{
+    color: orange;
+  }
+  #list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
+ 
